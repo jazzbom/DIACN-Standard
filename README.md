@@ -34,3 +34,7 @@ ID  | DO-YY-CC-AA-UU  | OX.AC.UK-1096-GBR-01865-AQACCQEODAUFAQIJBAIBBQ
     UU: Base64 encoeded UUID also known as ShortUUID or ShortGUID (Min/Max length: 6/~)
 
 Work in progress.
+
+### Copyright and License
+
+Copyright 2018 Jay Bhosle.
