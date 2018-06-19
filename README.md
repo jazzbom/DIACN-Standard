@@ -28,7 +28,7 @@ An example DIACN file is as follows:
 
 Field Name  | Content Structure | Example
 ------------- | --------------  | -----------
-**ID**  | DO-YY-CC-AA-UU  | OX.AC.UK-1096-GBR-01865-AQACCQEODAUFAQIJBAIBBQ
+ID  | DO-YY-CC-AA-UU  | OX.AC.UK-1096-GBR-01865-AQACCQEODAUFAQIJBAIBBQ
     DO: Web domain name of the organisation (Min/Max length: 2/~)
     YY: Organisation founded in year (Min/Max length: 1/~)
     CC: Country Code as ISO alpha-3 (Min/Max length: 3/3)
@@ -39,19 +39,19 @@ Field Name  | Content Structure | Example
 
 Field Name  | Content Structure | Example
 ------------- | --------------  | -----------
-**ACADEMIC ORGANISATION NAME**  | Official full name of the organisation issuing the certificate.   | UNIVERSITY OF OXFORD
+ACADEMIC ORGANISATION NAME  | Official full name of the organisation issuing the certificate.   | UNIVERSITY OF OXFORD
 
 ### III. TITLE
 
 Field Name  | Content Structure | Example
 ------------- | --------------  | -----------
-**TITLE**  | A Title describing the certificate. Must be similar to the print on the certificate.  | Master of Engineering
+TITLE  | A Title describing the certificate. Must be similar to the print on the certificate.  | Master of Engineering
 
 ### IV. ISSUANCE DATE
 
 Field Name  | Content Structure | Example
 ------------- | --------------  | -----------
-**ISSUANCE DATE**  | d M YYYY  | 10 AUGUST 2015
+ISSUANCE DATE  | d M YYYY  | 10 AUGUST 2015
     d: Day in month. Printed as an Integer.
     M: Full name of the Month as per Gregorian calendar.
     YYYY: Year as per AD Gregorian calendar.
@@ -60,7 +60,7 @@ Field Name  | Content Structure | Example
 
 Field Name  | Content Structure | Example
 ------------- | --------------  | -----------
-**EXPIRY DATE**  | d M YYYY  | 10 AUGUST 2020
+EXPIRY DATE  | d M YYYY  | 10 AUGUST 2020
     d: Day in month. Printed as an Integer.
     M: Full name of the Month as per Gregorian calendar.
     YYYY: Year as per AD Gregorian calendar.
@@ -69,13 +69,13 @@ Field Name  | Content Structure | Example
 
 Field Name  | Content Structure | Example
 ------------- | --------------  | -----------
-**NAME OF CERTIFICATE HOLDER**  | Name as printed on the certificate, prefixed with a title.| Mrs. Ellen Williams
+NAME OF CERTIFICATE HOLDER  | Name as printed on the certificate, prefixed with a title.| Mrs. Ellen Williams
 
 ### VII. OTHER DATA
 
 Field Name  | Content Structure | Example
 ------------- | --------------  | -----------
-**OTHER DATA**  | Any additional information or metadata.  | N/A
+OTHER DATA  | Any additional information or metadata.  | N/A
 
 Work in progress.
 
