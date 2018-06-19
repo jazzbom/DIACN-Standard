@@ -10,7 +10,7 @@ An example DIACN file is as follows:
     ID: ASTON.AC.UK-1895-GBR-0121-AQADDQEODAUFAQIJBAIBBQ
     ACADEMIC ORGANISATION NAME: ASTON UNIVERSITY
     TITLE: MASTER OF SCIENCE
-    ISSUANCE DATE: TEN JULY 2017
+    ISSUANCE DATE: 10 JULY 2017
     EXPIRY DATE:
     NAME OF CERTIFICATE HOLDER: MR. IAN SMITH
     OTHER DATA:
@@ -26,12 +26,42 @@ Below lists a detailed structure of each of the fields:
 Field Name  | Content Structure | Example
 ------------- | --------------  | -----------
 ID  | DO-YY-CC-AA-UU  | OX.AC.UK-1096-GBR-01865-AQACCQEODAUFAQIJBAIBBQ
-    
     DO: Web domain name of the organisation (Min/Max length: 2/~)
     YY: Organisation founded in year (Min/Max length: 1/~)
     CC: Country Code as ISO alpha-3 (Min/Max length: 3/3)
     AA: Area or regional code (Min/Max length: 1/~)
     UU: Base64 encoeded UUID also known as ShortUUID or ShortGUID (Min/Max length: 6/~)
+
+Field Name  | Content Structure | Example
+------------- | --------------  | -----------
+ACADEMIC ORGANISATION NAME  | Official full name of the organisation issuing the certificate.   | UNIVERSITY OF OXFORD
+
+Field Name  | Content Structure | Example
+------------- | --------------  | -----------
+TITLE  | A Title describing the certificate. Must be similar to the print on the certificate.  | Master of Engineering
+
+Field Name  | Content Structure | Example
+------------- | --------------  | -----------
+ISSUANCE DATE  | d M YYYY  | 10 AUGUST 2015
+    d: Day in month. Printed as an Integer.
+    M: Full name of the Month as per Gregorian calendar.
+    YYYY: Year as per AD Gregorian calendar.
+
+
+Field Name  | Content Structure | Example
+------------- | --------------  | -----------
+EXPIRY DATE  | d M YYYY  | 10 AUGUST 2020
+    d: Day in month. Printed as an Integer.
+    M: Full name of the Month as per Gregorian calendar.
+    YYYY: Year as per AD Gregorian calendar.
+
+Field Name  | Content Structure | Example
+------------- | --------------  | -----------
+NAME OF CERTIFICATE HOLDER  | Name as printed on the certificate, prefixed with a title.| Mrs. Ellen Williams
+
+Field Name  | Content Structure | Example
+------------- | --------------  | -----------
+OTHER DATA  | Any additional information or metadata.  | N/A
 
 Work in progress.
 
