@@ -23,6 +23,8 @@ An example DIACN file is as follows:
 
 Below lists a detailed structure of each of the fields:
 
+### I. ID
+
 Field Name  | Content Structure | Example
 ------------- | --------------  | -----------
 ID  | DO-YY-CC-AA-UU  | OX.AC.UK-1096-GBR-01865-AQACCQEODAUFAQIJBAIBBQ
@@ -32,13 +34,19 @@ ID  | DO-YY-CC-AA-UU  | OX.AC.UK-1096-GBR-01865-AQACCQEODAUFAQIJBAIBBQ
     AA: Area or regional code (Min/Max length: 1/~)
     UU: Base64 encoeded UUID also known as ShortUUID or ShortGUID (Min/Max length: 6/~)
 
+### II. ACADEMIC ORGANISATION NAME
+
 Field Name  | Content Structure | Example
 ------------- | --------------  | -----------
 ACADEMIC ORGANISATION NAME  | Official full name of the organisation issuing the certificate.   | UNIVERSITY OF OXFORD
 
+### III. TITLE
+
 Field Name  | Content Structure | Example
 ------------- | --------------  | -----------
 TITLE  | A Title describing the certificate. Must be similar to the print on the certificate.  | Master of Engineering
+
+### IV. ISSUANCE DATE
 
 Field Name  | Content Structure | Example
 ------------- | --------------  | -----------
@@ -47,6 +55,7 @@ ISSUANCE DATE  | d M YYYY  | 10 AUGUST 2015
     M: Full name of the Month as per Gregorian calendar.
     YYYY: Year as per AD Gregorian calendar.
 
+### V. EXPIRY DATE
 
 Field Name  | Content Structure | Example
 ------------- | --------------  | -----------
@@ -55,9 +64,13 @@ EXPIRY DATE  | d M YYYY  | 10 AUGUST 2020
     M: Full name of the Month as per Gregorian calendar.
     YYYY: Year as per AD Gregorian calendar.
 
+### VI. NAME OF CERTIFICATE HOLDER
+
 Field Name  | Content Structure | Example
 ------------- | --------------  | -----------
 NAME OF CERTIFICATE HOLDER  | Name as printed on the certificate, prefixed with a title.| Mrs. Ellen Williams
+
+### VII. OTHER DATA
 
 Field Name  | Content Structure | Example
 ------------- | --------------  | -----------
