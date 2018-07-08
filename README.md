@@ -1,4 +1,4 @@
-# DIACN-Standard (DRAFT)                                                                                   
+# DIACN-Standard                                                                                   
 *Author: Jay Bhosle, 2018*
 
 ## Summary
@@ -8,13 +8,13 @@ The Digital Identification Academic Certificate Number, abbreviated as DIACN is 
 
 An example DIACN file is as follows:
 
-    ID: ASTON.AC.UK-1895-GBR-0121-AQADDQEODAUFAQIJBAIBBQ
-    ACADEMIC ORGANISATION NAME: ASTON UNIVERSITY
-    TITLE: MASTER OF SCIENCE
-    ISSUANCE DATE: 10 JULY 2017
-    EXPIRY DATE:
-    NAME OF CERTIFICATE HOLDER: MR. IAN SMITH
-    OTHER DATA:
+    "ID": "ASTON.AC.UK-1895-GBR-0121-AQADDQEODAUFAQIJBAIBBQ"
+    "ACADEMIC ORGANISATION NAME": "ASTON UNIVERSITY"
+    "TITLE": "MASTER OF SCIENCE"
+    "ISSUANCE DATE": "10 JULY 2017"
+    "EXPIRY DATE":
+    "NAME OF CERTIFICATE HOLDER": "MR. IAN SMITH"
+    "OTHER DATA":
 
 ## Detailing a DIACN structure
 * The name of the file can be anything with file type as **.diacn**. E.g. fileName.diacn
